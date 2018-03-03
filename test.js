@@ -18,3 +18,10 @@ if ( age > 40 ) {
 	console.log("You hate me because I'm not old!");
 }
 }
+
+var youngerthanme = age-1;
+
+while (youngerthanme > 0){
+	console.log("Someone age ", ( age - youngerthanme), " is ", youngerthanme, " youngerthanme." );
+	youngerthanme--;
+}
